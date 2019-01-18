@@ -1,0 +1,9 @@
+apt-get install ctags
+
+/into the program file root, cd xxx
+/then 
+ctags -R
+
+/into program root,vim main.c
+vim main.c
+/use ctrl+] goto the function define,use ctrl + T return jump
